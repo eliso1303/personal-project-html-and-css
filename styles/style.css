@@ -381,3 +381,71 @@ header {
     background-position: 12px 8px;
 }
 /****************feature products end **************/
+/************** TheFox ***************/
+
+.thefox {
+    margin-top: 101px;
+}
+
+.thefox_main {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 18px 28px;
+    border: 1px solid gray;
+    border-radius: 11px;
+    padding-left: 28px;
+}
+
+.thefox_img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    margin-right: 35px;
+}
+
+.thefox_content {
+    display: inline-block;
+    width: 750px;
+    vertical-align: top;
+    margin-right: 24px;
+}
+
+.thefox_content h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #34495E;
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+
+.thefox_content p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: -2px;
+}
+
+.thefox_button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.thefox_button span{
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    background: #34495E;
+    border-radius: 11px;
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+    height: 61px;
+    line-height: 60px;
+}
+/************** TheFox end ***************/
