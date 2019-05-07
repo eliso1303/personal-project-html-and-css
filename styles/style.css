@@ -320,7 +320,7 @@ header {
     text-decoration: none;
 }
 .prod_info {
-    padding: 12px 19px;
+    padding: 12px 20px;
     border:1px solid #E6E6E6;
 }
 .prod_info h3 {
@@ -372,21 +372,23 @@ header {
     background:#A1B1BC url("../images/Shape 247.png") no-repeat;
     background-position: 12px 8px;
 }
-.prod_info_bottom .to-cart a:hover {
+.prod_items > div:hover .to-cart a {
     background:#1ABC9C url("../images/Shape 246.png") no-repeat;
     background-position: 10px;
 }
-.prod_info_bottom .details a:hover {
-    background:#1ABC9C url("../images/Shape 247.png") no-repeat;
-    background-position: 12px 8px;
+.prod_items > div:hover .details a {
+    border:1px solid #FEFEFE;
+    background:#2C3E50 url("../images/Shape 247.png") no-repeat;
+    background-position: 10px;
+    line-height: 26px;
 }
+
+
 /****************feature products end **************/
 /************** TheFox ***************/
-
 .thefox {
     margin-top: 101px;
 }
-
 .thefox_main {
     width: 1170px;
     margin: 0 auto;
@@ -395,21 +397,18 @@ header {
     border-radius: 11px;
     padding-left: 28px;
 }
-
 .thefox_img {
     display: inline-block;
     vertical-align: middle;
     width: 100px;
     margin-right: 35px;
 }
-
 .thefox_content {
     display: inline-block;
     width: 750px;
     vertical-align: top;
     margin-right: 24px;
 }
-
 .thefox_content h3 {
     font-family: 'Lato';
     font-style: normal;
@@ -419,7 +418,6 @@ header {
     margin-top: 12px;
     margin-bottom: 9px;
 }
-
 .thefox_content p {
     font-family: 'Lato';
     font-weight: 400;
@@ -428,12 +426,10 @@ header {
     color: #A1B1BC;
     margin-top: -2px;
 }
-
 .thefox_button {
     display: inline-block;
     vertical-align: middle;
 }
-
 .thefox_button span{
     display: block;
     font-family: 'Lato';
@@ -449,3 +445,146 @@ header {
     line-height: 60px;
 }
 /************** TheFox end ***************/
+/************* Hero3 *************/
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.hero3 {
+    margin-top: 46px;
+}
+.hero3_img {
+    height: 600px;
+    background: #CCCCCC;
+    position: relative;
+    margin-bottom: 12px;
+}
+.hero3_img_content {
+    position: absolute;
+    top: 265px;
+    right: 90px;
+}
+.hero3_img_content h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    color: #2C3E50;
+    font-size: 61px;
+    line-height: 24px;
+}
+.hero3_img_content h2 span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    position: relative;
+}
+.hero3_img_content h2 span::before{
+    content: "3";
+    position: absolute;
+    width: 46px;
+    height: 62px;
+    top: 7px;
+    left: -5px;
+    border-radius: 10px;
+    background: #17D8B2;
+    line-height: 62px;
+    text-align: center;
+}
+.hero3_img_content p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 4px;
+}
+.hero3_img_content p span {
+    margin-left: 1.8px;
+}
+.hero3_button {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background: #2C3E50;
+    display: block;
+    margin-top: 22px;
+    margin-left: 5px;
+    text-align: center;
+}
+.hero3_sm_top {
+    background: #CCCCCC;
+    height: 200px;
+    position: relative;
+}
+.hero3_sm_img {
+    display: inline-block;
+    width: 383px;
+    margin-right: 6.5px;
+    vertical-align: top;
+}
+.hero3_sm_img:last-child{
+    margin-right: 0;
+}
+.hero3_sm_content{
+    padding: 26px 29px;
+    background: #ECF0F1;
+}
+.hero3_sm_content h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2C3E50;
+    margin-bottom: 9px;
+}
+.hero3_sm_content p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.hero3_sm_footer {
+    height: 50px;
+    background: #1ABC9C;
+    line-height: 55px;
+    color: white;
+    font-size: 15px;
+    padding-left: 32px;
+    font-family: 'Myriad Pro Regular';
+}
+.hero3_sm_img:hover .hero3_sm_top{
+    background: #1ABC9C;
+}
+.hero3_sm_img:hover .hero3_sm_content{
+    background: #2C3E50;
+}
+.hero3_sm_img:hover .hero3_sm_content h4{
+    color: white;
+}
+.hero3_sm_img:hover .hero3_sm_footer {
+    background: #1E2A37;
+}
+.hero3_sm_top::after{
+    display: none;
+}
+.hero3_sm_top:hover::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/Plus\ icon.png");
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*********** Hero3 end ************/
