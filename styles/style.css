@@ -107,3 +107,147 @@ header {
     color: #1ABC9C !important;
 }
 /************* menu element end **************/
+.slider {
+    position: relative;
+    background: #2C3E50;
+    height: 775px
+}
+.slider_content {
+    width: 1170px;
+    margin: 0 auto;
+}
+.slider_image {
+    width: 445px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 149px;
+}
+.slider_image img {
+    margin-left: -39px;
+}
+.caption {
+    display: inline-block;
+    width: 570px;
+    margin-top: 99px;
+}
+.caption h3{
+    color: white;
+    font-size: 36px;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+.caption h1{
+    color: white;
+    font-size: 89px;
+    font-family: 'Lato';
+    font-weight: 300;
+    margin-bottom: 23px;
+    margin-left: -5px;
+    display: inline-block;
+}
+.caption p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 30px;
+}
+.iphone span:first-child {
+    font-weight: 400;
+}
+.S {
+    display: inline-block;
+    width: 63px;
+    height: 63px;
+    vertical-align: top;
+    font-size: 58px;
+    font-family: 'Lato';
+    margin-top: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 19px;
+    color: white;
+    border: 1px solid white;
+    line-height: 56px;
+    border-radius: 10px;
+}
+.slider_buttons {
+    margin-top: 44px;
+}
+.slider_buttons span{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 18px;
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 6px;
+    height: 50px;
+    line-height: 50px;
+}
+.slider_buttons span:first-child{
+    background: #1D2C3B;
+}
+.slider_buttons span:last-child{
+    background: #1ABC9C;
+}
+.slider_arr .left_arrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 42%;
+    text-align: center;
+    left: 60px;
+    line-height: 47px;
+    border-radius: 5px;
+    font-size: 18px;
+    transform: translateY(-50%);
+    border: 1px solid white;
+    color: white;
+}
+.slider_arr .right_arrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 42%;
+    text-align: center;
+    right: 63px;
+    line-height: 47px;
+    border-radius: 5px;
+    font-size: 18px;
+    transform: translateY(-50%);
+    border: 1px solid white;
+    color: white;
+}
+ .right_arrow:hover, .left_arrow:hover{
+    border: none;
+    background: white;
+    color: black;
+}
+.controls {
+    width: 105px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 27px;
+}
+.controls div {
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+}
+.controls div:nth-child(3) {
+    border: 1px solid white;
+    background: transparent;
+    width: 17px;
+    height: 16px;
+}
+.controls div:last-child {
+    margin-right: 0;
+}
+/***************** slider end *******************/
