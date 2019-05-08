@@ -835,7 +835,7 @@ header {
 /**************** news end *****************/
 /********** store slider **********/
 .store_slider {
-    height: 675px;
+    height: 672px;
     position: relative;
 }
 .store_slider_mask {
@@ -944,3 +944,210 @@ header {
     border: 1px solid white;
 }
 /************ store slider end *************/
+/************* services_section **************/
+.services_section {
+    padding-bottom: 100px;
+}
+.wrap-serv {
+   width: 1175px;
+   margin: 0 auto;
+}
+.left-serv , .right-serv {
+   display: inline-block;
+   width: 570px;
+   margin-top: 90px;
+   vertical-align: top;
+}
+.left-serv {
+   margin-right: 27px;
+}
+.services_section h3 {
+   font-family: 'Lato';
+   font-weight: 300;
+   font-size: 36px;
+   color: #34495E;
+}
+.services_section h3 span {
+   font-family: 'Lato';
+   font-weight: 900;
+}
+.service-left {
+   display: inline-block;
+   width: 508px;
+}
+.service-right{
+   display: inline-block;
+   width: 38px;
+}
+.service-row {
+   padding-top: 6px;
+   padding-bottom: 11px;
+   padding-left: 17px;
+   border: 1px solid #E5E5E5;
+}
+.service-left p {
+   font-family: 'Lato';
+   font-weight: 400;
+   font-size: 14px;
+   color: #A1B1BC;
+   line-height: 20px;
+}
+.left-serv-content {
+   margin-top: 44px;
+}
+.service-right span {
+   color: #999999;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 20px;
+   padding-right: 10px;
+   position: absolute;
+   top: -11px;
+   left: 12px;
+}
+.service-right {
+   text-align: center;
+   position: relative;
+}
+.service-right::after{
+   position: absolute;
+   content: "";
+   background: #E5E5E5;
+   width: 2px;
+   height: 36px;
+   left: 0;
+   top: -21px;
+}
+.service-row:hover .service-left p {
+   font-family: 'Lato';
+   font-weight: 700;
+   color: #1ABC9C;
+
+}
+.service-row-text p{
+   font-family: 'Lato';
+   font-weight: 400;
+   font-size: 14px;
+   color: #A1B1BC;
+   line-height: 24px;
+}
+.service-row-image {
+   width: 80px;
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 15px;
+}
+.service-row-text {
+   display: inline-block;
+   width: 410px;
+   margin-top: 2px;
+}
+.service-row-child {
+   position: relative;
+   margin-top: 36px;
+   margin-left: 2px;
+}
+.service-row-child::after{
+   content: "";
+   position: absolute;
+   background: #E5E5E5;
+   width: 570px;
+   height: 1px;
+   left: -19px;
+   top: -21px;
+}
+.service-row.image {
+   margin-bottom: 3px;
+   padding-bottom: 15px;
+}
+.right-service-main-top ul li {
+   display: inline-block;
+   font-family: 'Lato';
+   font-weight: 400;
+   color: #A1B1BC;
+   text-align: center;
+   font-size: 14px;
+   position: relative;
+}
+.right-service-main {
+   margin-top: 43px;
+}
+.right-service-main-top {
+   border: 1px solid #E5E5E5;
+   padding: 10px 0;
+}
+.right-service-bottom {
+   margin-top: 25px;
+   padding-left: 20px;
+}
+.right-service-bottom  p {
+   color: #A1B1BC;
+}
+.right-service-img img {
+   display: inline-block;
+   margin-right: 21px;
+}
+.right-service-img p {
+   display: inline-block;
+   width: 418px;
+   vertical-align: top;
+   margin-top: 3px;
+   line-height: 24px;
+   font-family: 'Lato';
+   font-size: 14px;
+   font-weight: 400;
+}
+.right-image-second-p {
+   margin-top: 13px;
+   line-height: 24px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   width: 96%;
+}
+.right-service-main-top ul li:nth-child(1)::before{
+   content: "";
+   position: absolute;
+   width: 1px;
+   height: 37px;
+   background: #E5E5E5;
+   top: -9px;
+   right: 1px;
+}
+.right-service-main-top ul li:nth-child(2)::before{
+   content: "";
+   position: absolute;
+   width: 1px;
+   height: 37px;
+   background: #E5E5E5;
+   top: -9px;
+   right: -8px;
+}
+.right-service-main-top ul li:nth-child(3)::before{
+   content: "";
+   position: absolute;
+   width: 1px;
+   height: 37px;
+   background: #E5E5E5;
+   top: -9px;
+   right: 6px;
+}
+.right-service-main-top ul li.active{
+   font-family: 'Lato';
+   font-weight: 700;
+   color: #1ABC9C;
+}
+.right-service-main-top ul li.active::after{
+   content: "";
+   position: absolute;
+   height: 3px;
+   background: #1ABC9C;
+   left: -6px;
+   top: -11px;
+   width: 146px;
+}
+.right-service-main-top ul li:hover{
+   color: #34495E;
+}
+/*************** services_section end *******************/
