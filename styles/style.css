@@ -60,7 +60,7 @@ header {
 }
 .main_menu ul li::before{
     content: "";
-    background-image: url(../images/arrow1.png);
+    background-image: url(../images/arr1.png);
     width: 20px;
     height: 20px;
     position: absolute;
@@ -73,7 +73,7 @@ header {
     display: none;
 }
 .main_menu ul li:hover::before{
-    background-image: url(../images/arrow.png);
+    background-image: url(../images/arr.png);
 }
 .main_menu ul li:hover  {
     color: #1ABC9C;
@@ -658,9 +658,10 @@ header {
     z-index:1;
     display: none;
 }
-.resents .prod_items > div:hover .prod_info p .plus {
+.resents .prod_items > div .prod_info p span:hover + .plus,  .resents.prod_items > div .prod_info p .plus:hover {
     display: inline-block;
 }
+
 .resents .prod_items > div:hover p .plus:after {
     content: '+';
     color: #fff;
@@ -947,6 +948,7 @@ header {
 /************* services_section **************/
 .services_section {
     padding-bottom: 100px;
+    background: #F9FBFB;
 }
 .wrap-serv {
    width: 1175px;
@@ -980,10 +982,11 @@ header {
    width: 38px;
 }
 .service-row {
-   padding-top: 6px;
-   padding-bottom: 11px;
-   padding-left: 17px;
-   border: 1px solid #E5E5E5;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    border: 1px solid #E5E5E5;
+    background:#fff;
 }
 .service-left p {
    font-family: 'Lato';
@@ -1044,21 +1047,24 @@ header {
 }
 .service-row-child {
    position: relative;
-   margin-top: 36px;
+   margin-top: 32px;
    margin-left: 2px;
-}
-.service-row-child::after{
-   content: "";
-   position: absolute;
-   background: #E5E5E5;
-   width: 570px;
-   height: 1px;
-   left: -19px;
-   top: -21px;
 }
 .service-row.image {
    margin-bottom: 3px;
+   margin-top:3px;
    padding-bottom: 15px;
+   position: relative;
+   
+}
+.service-row.image:before {
+    content:'';
+    width:100%;
+    height:1px;
+    position:absolute;
+    background:#E7EAEA;
+    left: 0px;
+    top: 36px;
 }
 .right-service-main-top ul li {
    display: inline-block;
@@ -1070,7 +1076,11 @@ header {
    position: relative;
 }
 .right-service-main {
-   margin-top: 43px;
+    margin-top: 43px;
+    border: 1px solid #E7EAEA;
+    border-top: 0px;
+    padding-bottom: 19px;
+    background:#fff;
 }
 .right-service-main-top {
    border: 1px solid #E5E5E5;
@@ -1189,6 +1199,7 @@ header {
 /**************** Forms *****************/
 .form_tags {
     padding-top: 94px;
+    padding-bottom:101px;
 }
 .form_tags .container > div {
     float:left;
