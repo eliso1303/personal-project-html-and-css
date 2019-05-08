@@ -60,7 +60,7 @@ header {
 }
 .main_menu ul li::before{
     content: "";
-    background-image: url(../images/arr1.png);
+    background-image: url(../images/arrow.png);
     width: 20px;
     height: 20px;
     position: absolute;
@@ -1025,7 +1025,7 @@ header {
    font-family: 'Lato';
    font-weight: 700;
    color: #1ABC9C;
-
+   letter-spacing: -0.2px;
 }
 .service-row-text p{
    font-family: 'Lato';
