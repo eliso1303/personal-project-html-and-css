@@ -383,7 +383,6 @@ header {
     line-height: 26px;
 }
 
-
 /****************feature products end **************/
 /************** TheFox ***************/
 .thefox {
@@ -667,3 +666,166 @@ header {
     left: 24px;
 }
 /************* resent products end ****************/
+/***************** news *****************/
+.news_section {
+    background:#ECF0F1;
+    padding-top:96px;
+    padding-bottom:71px;
+}
+.news_section h2 {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size:36px;
+    line-height: 33px;
+    color:#34495E;
+    margin-bottom: 47px;
+}
+.news_section h2 span {
+    font-family: 'Lato';
+    font-weight: 900;
+}
+.news_section .news_top {
+    display: flex;
+    justify-content: space-between;
+}
+.news_section .slider-arrows i {
+    display: inline-block;
+    padding: 5px 9px;
+    border: 1px solid #CDD9E1;
+    background: #fff;
+    color: #A1B1BC;
+    font-size: 24px;
+    margin: 1px 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.news_section .slider-arrows i:hover {
+    background:#2C3E50;
+    color:#FFFFFF;
+}
+.news_elements > div:hover .news_content {
+    background: #34495E;
+}
+.news_elements > div {
+    height:194px;
+    float:left;
+    width:570px;
+    margin:0px 28px 30px 2px;
+}
+.news_elements > div:nth-child(2n){
+    margin-right:0px;
+}
+.news_elements > div:hover h3, .news_elements > div:hover h4 {
+    color:#fff;
+}
+.news_elements > div .heart {
+    background:#686D80 url('../images/heart.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div .img {
+    background:#1ABC9C url('../images/image.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div:first-child .user {
+    background:#3A3E4A url('../images/user.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div:nth-child(2) .img {
+    background:#17181B url('../images/image.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div:nth-child(2) .user {
+    background:#7BC200 url('../images/user.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div:nth-child(3) .user {
+    background:#0787D4 url('../images/user.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div:nth-child(4) .user {
+    background:#EF584D url('../images/user.png') no-repeat;
+    background-position: center;
+}
+.news_elements > div:nth-child(2) .news_content p {
+    margin-top: 6px;
+}
+.news_elements > div:nth-child(3) .news_content p {
+    margin-top: 7px;
+}
+.news_elements > div:last-child .news_content p {
+    margin-top: 7px;
+    margin-top: 3px;
+}
+.news_img {
+    width:300px;
+    height: 100%;
+    background: #CCCCCC;
+}
+.news_img:hover {
+    background: #1ABC9C url('../images/search.png') no-repeat;
+    background-position: 129px 82px;
+}
+.news_img > div {
+    width:40px;
+    height:41px;
+    border-bottom: 1px solid #F5F6F6;
+    background-color:#686D80;
+}
+.news_img .news_date {
+    font-family: arial;
+    line-height:20px;
+    color:#FFFFFF;
+    font-size:14px;
+    text-align: center;
+    padding-top: 11px;
+    height:71px;
+    border-bottom:none;
+}
+.news_img .news_date span {
+    font-size:18px;
+}
+.news_content {
+    background:#FFFFFF;
+    border:1px solid #E7EBED;
+    width: 270px;
+    padding: 14px 10px 24px 19px;
+    position: relative;
+    z-index:1;
+    height:100%;
+}
+.news_elements > div:hover .news_content:before {
+     border-color: transparent #34495E transparent transparent;
+}
+.news_content:before {
+    content:"\A";
+    border-style: solid;
+    border-width: 8px 9px 7px 0;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    left: -9px;
+    top: 20px;
+    z-index:2;
+}
+.news_img, .news_content {
+    float:left;
+}
+.news_content h3 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size:18px;
+    line-height: 24px;
+    color:#2C3E50;
+    margin-bottom: 1px;
+}
+.news_content h4, .news_content p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size:15px;
+    line-height: 24px;
+    color:#2C3E50;
+}
+.news_content p {
+    color:#A1B1BC;
+    margin-top: 9px;
+}
+/**************** news end *****************/
